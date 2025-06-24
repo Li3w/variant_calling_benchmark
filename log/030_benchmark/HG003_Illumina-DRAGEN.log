@@ -1,0 +1,15 @@
+2024-08-03 16:18:36,063 WARNING  No reference file found at default locations. You can set the environment variable 'HGREF' or 'HG19' to point to a suitable Fasta file.
+[W] overlapping records at chr6:29747433 for sample 0
+[W] Variants that overlap on the reference allele: 4
+[I] Total VCF records:         4000097
+[I] Non-reference VCF records: 4000097
+[I] Total VCF records:         45222
+[I] Non-reference VCF records: 45222
+Hap.py 
+2024-08-03 16:20:12,313 WARNING  Creating template for vcfeval. You can speed this up by supplying a SDF template that corresponds to /home/molecularonco/github/nccs-meth3/bundle_reference_files/hg38.fa
+Benchmarking Summary:
+  Type Filter  TRUTH.TOTAL  TRUTH.TP  TRUTH.FN  QUERY.TOTAL  QUERY.FP  QUERY.UNK  FP.gt  FP.al  METRIC.Recall  METRIC.Precision  METRIC.Frac_NA  METRIC.F1_Score  TRUTH.TOTAL.TiTv_ratio  QUERY.TOTAL.TiTv_ratio  TRUTH.TOTAL.het_hom_ratio  QUERY.TOTAL.het_hom_ratio
+ INDEL    ALL         2731      2635        96         3585        97        838     42     15       0.964848          0.964689        0.233752         0.964768                     NaN                     NaN                   1.505145                   1.536105
+ INDEL   PASS         2731      2634        97         3577        96        832     42     15       0.964482          0.965027        0.232597         0.964755                     NaN                     NaN                   1.505145                   1.537619
+   SNP    ALL        38001     37792       209        41023        32       3219     23      2       0.994500          0.999154        0.078468         0.996821                 2.61062                2.562858                   1.555780                   1.555888
+   SNP   PASS        38001     37788       213        41004        30       3206     22      1       0.994395          0.999206        0.078187         0.996795                 2.61062                2.563374                   1.555780                   1.557254

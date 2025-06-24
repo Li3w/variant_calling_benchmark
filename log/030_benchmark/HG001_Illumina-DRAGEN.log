@@ -1,0 +1,17 @@
+2025-06-23 12:25:13,878 WARNING  No reference file found at default locations. You can set the environment variable 'HGREF' or 'HG19' to point to a suitable Fasta file.
+[W] overlapping records at chr6:29747433 for sample 0
+[W] Variants that overlap on the reference allele: 4
+[I] Total VCF records:         4000097
+[I] Non-reference VCF records: 4000097
+[W] overlapping records at chr2:174337470 for sample 0
+[W] Variants that overlap on the reference allele: 1
+[I] Total VCF records:         45193
+[I] Non-reference VCF records: 45193
+Hap.py 
+2025-06-23 12:27:04,119 WARNING  Creating template for vcfeval. You can speed this up by supplying a SDF template that corresponds to /home/molecularonco/github/nccs-meth3/bundle_reference_files/hg38.fa
+Benchmarking Summary:
+  Type Filter  TRUTH.TOTAL  TRUTH.TP  TRUTH.FN  QUERY.TOTAL  QUERY.FP  QUERY.UNK  FP.gt  FP.al  METRIC.Recall  METRIC.Precision  METRIC.Frac_NA  METRIC.F1_Score  TRUTH.TOTAL.TiTv_ratio  QUERY.TOTAL.TiTv_ratio  TRUTH.TOTAL.het_hom_ratio  QUERY.TOTAL.het_hom_ratio
+ INDEL    ALL         2731      1189      1542         3632      1679        764    632    124       0.435372          0.414575        0.210352         0.424719                     NaN                     NaN                   1.505145                   1.523088
+ INDEL   PASS         2731      1189      1542         3628      1679        760    632    124       0.435372          0.414575        0.209482         0.424719                     NaN                     NaN                   1.505145                   1.523088
+   SNP    ALL        38001     16168     21833        40749     21569       3012   8204    742       0.425462          0.428439        0.073916         0.426946                 2.61062                2.580588                   1.555780                   1.603798
+   SNP   PASS        38001     16164     21837        40728     21564       3000   8202    742       0.425357          0.428435        0.073659         0.426891                 2.61062                2.581260                   1.555780                   1.605287

@@ -1,0 +1,33 @@
+--2024-07-16 15:56:10--  https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz
+Resolving ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)... 130.14.250.11, 130.14.250.12, 2607:f220:41e:250::11, ...
+Connecting to ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)|130.14.250.11|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 156252944 (149M) [application/x-gzip]
+Saving to: ‘HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz’
+
+HG002_GRCh38_1_22_v4.2.1_ben 100%[=============================================>] 149.01M   756KB/s    in 83s     
+
+2024-07-16 15:57:35 (1.79 MB/s) - ‘HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz’ saved [156252944/156252944]
+
+--2024-07-16 15:59:07--  https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi
+Resolving ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)... 130.14.250.13, 130.14.250.7, 2607:f220:41e:250::10, ...
+Connecting to ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)|130.14.250.13|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1657747 (1.6M) [application/x-gzip]
+Saving to: ‘HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi’
+
+HG002_GRCh38_1_22_v4.2.1_ben 100%[=============================================>]   1.58M   824KB/s    in 2.0s    
+
+2024-07-16 15:59:10 (824 KB/s) - ‘HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi’ saved [1657747/1657747]
+
+--2024-07-16 15:59:38--  https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/AshkenazimTrio/HG002_NA24385_son/NISTv4.2.1/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed
+Resolving ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)... 130.14.250.7, 130.14.250.13, 2607:f220:41e:250::10, ...
+Connecting to ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11494021 (11M) [application/vnd.realvnc.bed]
+Saving to: ‘HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed’
+
+HG002_GRCh38_1_22_v4.2.1_ben 100%[=============================================>]  10.96M   458KB/s    in 30s     
+
+2024-07-16 16:00:09 (372 KB/s) - ‘HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed’ saved [11494021/11494021]
+

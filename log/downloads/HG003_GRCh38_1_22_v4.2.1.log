@@ -1,0 +1,33 @@
+--2024-07-16 16:03:23--  https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/AshkenazimTrio/HG003_NA24149_father/NISTv4.2.1/GRCh38/HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz
+Resolving ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)... 130.14.250.7, 130.14.250.13, 2607:f220:41e:250::11, ...
+Connecting to ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 147212428 (140M) [application/x-gzip]
+Saving to: ‘HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz’
+
+HG003_GRCh38_1_22_v4.2.1_ben 100%[=============================================>] 140.39M   464KB/s    in 6m 7s   
+
+2024-07-16 16:09:32 (391 KB/s) - ‘HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz’ saved [147212428/147212428]
+
+--2024-07-16 16:10:16--  https://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/release/AshkenazimTrio/HG003_NA24149_father/NISTv4.2.1/GRCh38/HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi
+Resolving ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)... 130.14.250.7, 130.14.250.13, 2607:f220:41e:250::13, ...
+Connecting to ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)|130.14.250.7|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1651307 (1.6M) [application/x-gzip]
+Saving to: ‘HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi’
+
+HG003_GRCh38_1_22_v4.2.1_ben 100%[=============================================>]   1.57M   411KB/s    in 3.9s    
+
+2024-07-16 16:10:24 (411 KB/s) - ‘HG003_GRCh38_1_22_v4.2.1_benchmark.vcf.gz.tbi’ saved [1651307/1651307]
+
+STv4.2.1/GRCh38/HG003_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed
+Resolving ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)... 130.14.250.13, 130.14.250.7, 2607:f220:41e:250::12, ...
+Connecting to ftp-trace.ncbi.nlm.nih.gov (ftp-trace.ncbi.nlm.nih.gov)|130.14.250.13|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13219856 (13M) [application/vnd.realvnc.bed]
+Saving to: ‘HG003_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed’
+
+HG003_GRCh38_1_22_v4.2.1_ben 100%[=============================================>]  12.61M  1.35MB/s    in 14s     
+
+2024-07-16 16:11:02 (946 KB/s) - ‘HG003_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed’ saved [13219856/13219856]
+
