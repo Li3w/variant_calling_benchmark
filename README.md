@@ -18,4 +18,4 @@ This project contains two components:
 3. Classifies variants into SNP or INDEL
 4. Generates UpSet plots for visualizing overlaps
 
-Link to article: https://www.nature.com/articles/s41598-025-97047-7
+Link to manuscript: https://www.nature.com/articles/s41598-025-97047-7
